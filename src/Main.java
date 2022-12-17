@@ -14,5 +14,14 @@ public class Main {
         System.out.println(car4);
         System.out.println(car5);
 
+        Person person1 = new Person ("Максим", "Москва", 1997, "преподавателя в университете");
+        Person person2 = new Person("Аня", "Киев", 1985, "бухгалтера");
+        Person person3 = new Person("Катя", "Подольск", 2003, "официанта в кофейне");
+        Person person4 = new Person("Артем", "Краков", 1964, "директора банка");
+        System.out.println(person1);
+        System.out.println(person2);
+        System.out.println(person3);
+        System.out.println(person4);
+
     }
 }
