@@ -7,7 +7,7 @@ public class Main {
         Car car2 = new Car("Audi", " A8 L TDI quattro ", 3.0f, " Black ", 2020, " Assembled in Germany");
         Car car3 = new Car("BMW", " Z8 ", 3.0f, " Black ", 2021, " Assembled in Germany");
         Car car4 = new Car("Kia", " Sportage 4-th Gen ", 2.4f, " Red ", 2018, " Assembled in South Korea");
-        Car car5 = new Car("", " Avente ", 0, " Orange ", 0, " Assembled in South Korea");
+        Car car5 = new Car("Hyundai", " Avente ", 0, " Orange ", 0, " Assembled in South Korea");
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car3);
