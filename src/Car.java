@@ -1,10 +1,10 @@
 public class Car {
-    private String brand;
-    private String model;
-    private float engineVolume;
-    private String colour;
-    private int year;
-    private String country;
+    private final String brand;
+    private final String model;
+    private final float engineVolume;
+    private final String colour;
+    private final int year;
+    private final String country;
 
     Car (String brand, String model, float engineVolume, String colour, int year, String country) {
         this.brand = brand;
