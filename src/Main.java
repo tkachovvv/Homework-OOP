@@ -16,7 +16,7 @@ public class Main {
 
         Person person1 = new Person ("Максим", "Москва", 1997, "преподавателя в университете");
         Person person2 = new Person("Аня", "Киев", 1985, "бухгалтера");
-        Person person3 = new Person("Катя", "Подольск", 2003, "официанта в кофейне");
+        Person person3 = new Person("Катя", "Подольск", -2003, "официанта в кофейне");
         Person person4 = new Person("Артем", "Краков", 1964, "директора банка");
         System.out.println(person1);
         System.out.println(person2);
