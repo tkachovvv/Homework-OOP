@@ -1,22 +1,36 @@
 public class Car {
-    private final String brand;
-    private final String model;
-    private final float engineVolume;
-    private final String colour;
-    private final int year;
-    private final String country;
+    String brand;
+    String model;
+    float engineVolume;
+    String colour;
+    int year;
+    String country;
 
-    Car (String brand, String model, float engineVolume, String colour, int year, String country) {
+    Car(String brand, String model, float engineVolume, String colour, int year, String country) {
         this.brand = brand;
         this.model = model;
         this.engineVolume = engineVolume;
         this.colour = colour;
         this.year = year;
         this.country = country;
-
     }
+
+    @Override
     public String toString() {
-        return brand + model + engineVolume + colour + year + country;
+        if (brand == null || brand.isEmpty()) {
+            brand = "Default";
+        } if (model == null || model.isEmpty()) {
+            model = "Default";
+        } if (country == null || country.isEmpty()) {
+            country = "Default";
+        } if (year <= 0) {
+            year = 2000;
+        } if (colour == null || colour.isEmpty()) {
+            colour = "White";
+        } if (engineVolume <= 0) {
+            engineVolume = 1.5f;
+        }
+        return (brand + model + engineVolume + colour + year + country);
     }
-
 }
+
